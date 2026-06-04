@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — ScribeForge</title>
+  <meta name="description" content="Get in touch with ScribeForge. Book a discovery call or send us a message to discuss your content needs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Scribe<span>Forge</span></a>
+    <button class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="services.html">Services</a></li>
+      <li><a href="agencies.html">For Agencies</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" class="btn btn-primary nav-cta">Get Started</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="services-hero">
+  <div class="container">
+    <h1>Let's talk</h1>
+    <p style="max-width:500px; margin:1rem auto 0; color:var(--color-gray-600);">Tell us about your content needs. We'll get back to you within 24 hours with a plan.</p>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <h2 style="margin-bottom:1.5rem;">Book a discovery call</h2>
+        <p style="color:var(--color-gray-600); margin-bottom:2rem;">Prefer to talk? Book a free 15-minute call. We'll discuss your goals, answer your questions, and put together a custom proposal — no pressure, no sales pitch.</p>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com" required>
+          </div>
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Company name">
+          </div>
+          <div class="form-group">
+            <label for="interest">I'm interested in</label>
+            <select id="interest" name="interest">
+              <option value="">Select an option</option>
+              <option value="retainer">Monthly Content Retainer</option>
+              <option value="project">One-Off Project</option>
+              <option value="agency">White-Label Partnership</option>
+              <option value="other">Something Else</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell us about your needs</label>
+            <textarea id="message" name="message" placeholder="What type of content do you need? What's your budget range? Any deadlines?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send Message →</button>
+        </form>
+      </div>
+
+      <div>
+        <h2 style="margin-bottom:1.5rem;">Other ways to reach us</h2>
+
+        <div style="background:var(--color-light); border-radius:var(--border-radius-lg); padding:2rem; margin-bottom:1.5rem;">
+          <h4 style="margin-bottom:0.5rem;">📧 Client Inquiries</h4>
+          <p style="color:var(--color-gray-600); font-size:0.95rem;">For retainer and project inquiries</p>
+          <a href="mailto:hello@scribeforge.ai" style="font-weight:600;">hello@scribeforge.ai</a>
+        </div>
+
+        <div style="background:var(--color-light); border-radius:var(--border-radius-lg); padding:2rem; margin-bottom:1.5rem;">
+          <h4 style="margin-bottom:0.5rem;">🤝 Agency Partnerships</h4>
+          <p style="color:var(--color-gray-600); font-size:0.95rem;">For white-label and agency partner inquiries</p>
+          <a href="mailto:partners@scribeforge.ai" style="font-weight:600;">partners@scribeforge.ai</a>
+        </div>
+
+        <div style="background:var(--color-light); border-radius:var(--border-radius-lg); padding:2rem;">
+          <h4 style="margin-bottom:0.75rem;">What happens next?</h4>
+          <ol style="color:var(--color-gray-600); font-size:0.95rem; padding-left:1.25rem; line-height:2;">
+            <li>We review your message within <strong>24 hours</strong></li>
+            <li>We send a tailored proposal based on your needs</li>
+            <li>Free 15-minute discovery call to align on details</li>
+            <li>You're matched with your dedicated strategist</li>
+            <li>First content delivered within <strong>48 hours</strong></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <h3>Scribe<span>Forge</span></h3>
+        <p>Premium-caliber content delivered at startup speed. No robotic tone, no lock-in contracts, no minimum commitments.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Content Retainers</a></li>
+          <li><a href="services.html">Project-Based Work</a></li>
+          <li><a href="agencies.html">White-Label Partnerships</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Book a Call</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@scribeforge.ai">hello@scribeforge.ai</a></li>
+          <li><a href="mailto:partners@scribeforge.ai">partners@scribeforge.ai</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 ScribeForge. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script>
+// Form submission handler (sends to mailto as fallback)
+document.querySelector('.contact-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const btn = this.querySelector('button[type="submit"]');
+  btn.textContent = 'Sending...';
+  btn.disabled = true;
+
+  const formData = new FormData(this);
+  const params = new URLSearchParams();
+  formData.forEach((value, key) => params.append(key, value));
+
+  // Fallback: open mailto with form data
+  const name = formData.get('name');
+  const email = formData.get('email');
+  const company = formData.get('company');
+  const interest = formData.get('interest');
+  const message = formData.get('message');
+
+  const body = `From: ${name} (${email})\nCompany: ${company}\nInterest: ${interest}\n\n${message}`;
+  window.location.href = `mailto:hello@scribeforge.ai?subject=New inquiry from ${encodeURIComponent(name)}&body=${encodeURIComponent(body)}`;
+
+  setTimeout(() => {
+    btn.textContent = '✓ Message Sent';
+    btn.style.background = '#22c55e';
+  }, 500);
+});
+
+// Mobile menu
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.querySelector('.nav-links').classList.remove('open');
+  });
+});
+</script>
+</body>
+</html>

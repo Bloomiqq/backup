@@ -4,22 +4,22 @@
    ============================================ */
 
 :root {
-  --color-primary: #08050f;
-  --color-secondary: #12081e;
-  --color-accent: #9b6dff;
-  --color-accent-hover: #b08aff;
-  --color-accent-dim: #5a3fa0;
-  --color-light: #0f0919;
-  --color-white: #ede8ff;
-  --color-gray-100: #1a1228;
-  --color-gray-200: #2e1f55;
-  --color-gray-300: #3d2a6e;
-  --color-gray-400: #5a3fa0;
-  --color-gray-500: #7b5fc0;
-  --color-gray-600: #9b84cc;
-  --color-gray-700: #b8a5d9;
-  --color-gray-800: #d4c7e8;
-  --color-gray-900: #ede8ff;
+  --color-primary: #080810;
+  --color-secondary: #0c0c1e;
+  --color-accent: #7c3aed;
+  --color-accent-hover: #8b5cf6;
+  --color-accent-dim: #5b21b6;
+  --color-light: #0a0a18;
+  --color-white: #ffffff;
+  --color-gray-100: #12122a;
+  --color-gray-200: #1e1040;
+  --color-gray-300: #2d1b69;
+  --color-gray-400: #5b21b6;
+  --color-gray-500: #8b5cf6;
+  --color-gray-600: #a78bfa;
+  --color-gray-700: #c4b5fd;
+  --color-gray-800: #ddd6fe;
+  --color-gray-900: #ede9fe;
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
   --max-width: 1200px;

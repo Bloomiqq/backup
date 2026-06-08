@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact — ScribeForge</title>
-  <meta name="description" content="Get in touch with ScribeForge. Book a discovery call or send us a message to discuss your content needs.">
+  <title>Contact — Bloomiq</title>
+  <meta name="description" content="Get in touch with Bloomiq. Book a discovery call or send us a message to discuss your content needs.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
 <!-- Navigation -->
 <nav class="nav">
   <div class="nav-inner">
-    <a href="index.html" class="nav-logo"><img src="logo.svg" alt="ScribeForge"> Scribe<span>Forge</span></a>
+    <a href="index.html" class="nav-logo"><img src="logo.svg" alt="Bloomiq"></a>
     <button class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Toggle menu">
       <span></span><span></span><span></span>
     </button>
@@ -81,13 +81,13 @@
         <div style="background:var(--color-light); border-radius:var(--border-radius-lg); padding:2rem; margin-bottom:1.5rem;">
           <h4 style="margin-bottom:0.5rem;">📧 Client Inquiries</h4>
           <p style="color:var(--color-gray-600); font-size:0.95rem;">For retainer and project inquiries</p>
-          <a href="mailto:hello@scribeforge.ai" style="font-weight:600;">hello@scribeforge.ai</a>
+          <a href="mailto:hello@bloomiq.com" style="font-weight:600;">hello@bloomiq.com</a>
         </div>
 
         <div style="background:var(--color-light); border-radius:var(--border-radius-lg); padding:2rem; margin-bottom:1.5rem;">
           <h4 style="margin-bottom:0.5rem;">🤝 Agency Partnerships</h4>
           <p style="color:var(--color-gray-600); font-size:0.95rem;">For white-label and agency partner inquiries</p>
-          <a href="mailto:partners@scribeforge.ai" style="font-weight:600;">partners@scribeforge.ai</a>
+          <a href="mailto:partners@bloomiq.com" style="font-weight:600;">partners@bloomiq.com</a>
         </div>
 
         <div style="background:var(--color-light); border-radius:var(--border-radius-lg); padding:2rem;">
@@ -110,7 +110,7 @@
   <div class="container">
     <div class="footer-inner">
       <div class="footer-brand">
-        <h3>Scribe<span>Forge</span></h3>
+        <h3>Bloo<span>miq</span></h3>
         <p>Premium-caliber content delivered at startup speed. No robotic tone, no lock-in contracts, no minimum commitments.</p>
       </div>
       <div>
@@ -131,13 +131,13 @@
       <div>
         <h4>Contact</h4>
         <ul>
-          <li><a href="mailto:hello@scribeforge.ai">hello@scribeforge.ai</a></li>
-          <li><a href="mailto:partners@scribeforge.ai">partners@scribeforge.ai</a></li>
+          <li><a href="mailto:hello@bloomiq.com">hello@bloomiq.com</a></li>
+          <li><a href="mailto:partners@bloomiq.com">partners@bloomiq.com</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      &copy; 2026 ScribeForge. All rights reserved.
+      &copy; 2026 Bloomiq. All rights reserved.
     </div>
   </div>
 </footer>
@@ -162,7 +162,7 @@ document.querySelector('.contact-form').addEventListener('submit', function(e) {
   const message = formData.get('message');
 
   const body = `From: ${name} (${email})\nCompany: ${company}\nInterest: ${interest}\n\n${message}`;
-  window.location.href = `mailto:hello@scribeforge.ai?subject=New inquiry from ${encodeURIComponent(name)}&body=${encodeURIComponent(body)}`;
+  window.location.href = `mailto:hello@bloomiq.com?subject=New inquiry from ${encodeURIComponent(name)}&body=${encodeURIComponent(body)}`;
 
   setTimeout(() => {
     btn.textContent = '✓ Message Sent';
